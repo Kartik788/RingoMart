@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "741579726582",
+    "project_id": "ringomart-3762f",
+    "storage_bucket": "ringomart-3762f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:741579726582:android:3ed062d8fdafb0405696d7",
+        "android_client_info": {
+          "package_name": "com.ringolatechapps.ringomart"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "741579726582-9phj9jcm1mh4fcb3bb199nov5hdi4drn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBXdwjwqnSUh4GHG0wzQzM7D-11DWLUt_k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "741579726582-9phj9jcm1mh4fcb3bb199nov5hdi4drn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

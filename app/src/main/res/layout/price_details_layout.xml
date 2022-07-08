@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/heading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="20dp"
+        android:text="Price Details"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/price_xx"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/heading"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="5dp"
+        android:text="Price (5 items)" />
+
+    <TextView
+        android:id="@+id/price_xx_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/price_xx"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:text="$1,86,848"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:layout_marginBottom="5dp"
+        android:id="@+id/discount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/price_xx"
+        android:layout_marginLeft="10dp"
+        android:text="Discount" />
+
+    <TextView
+        android:id="@+id/discount_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/discount"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:text="-$10,232" />
+
+    <TextView
+        android:layout_marginBottom="5dp"
+        android:id="@+id/coupons"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/discount"
+        android:layout_marginLeft="10dp"
+        android:text="Coupons for you" />
+
+    <TextView
+        android:id="@+id/coupons_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/coupons"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:text="-$40" />
+
+    <TextView
+        android:id="@+id/deleiverycharges"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/coupons"
+        android:layout_marginLeft="10dp"
+        android:text="Delivery Charges" />
+
+    <TextView
+        android:id="@+id/deleiverycharges_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/deleiverycharges"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:text="Free" />
+
+    <TextView
+        android:id="@+id/total_amount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/deleiverycharges"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="15dp"
+        android:text="Total Amount"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/total_amount_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/total_amount"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:text="$1,75,607"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>
